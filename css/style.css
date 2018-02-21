@@ -1,6 +1,9 @@
 /*font-family: 'Lato', sans-serif;
 font-family: 'Lora', serif;
 font-family: 'Crimson Text', serif;*/
+.headline{
+    align-items: center;
+}
 
 h1{
     font-family: 'Lora', serif;
@@ -8,6 +11,8 @@ h1{
     font-size: 60pt;
     letter-spacing: 40pt;
     text-align: center;
+    text-indent: 0.6em;
+    
     
 }
 
