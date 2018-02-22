@@ -1,11 +1,25 @@
 /*font-family: 'Lato', sans-serif;
 font-family: 'Lora', serif;
 font-family: 'Crimson Text', serif;*/
-.headline{
-    align-items: center;
+
+
+
+.intro img {
+    z-index: -1;
 }
 
-.headline h1{
+.headline {
+    opacity: 0;
+    transform: translateY(-50px);
+    transition: all 1s ease-out;
+}
+
+.headline.fade-in {
+   opacity: 1;
+   transform: translateY(0px); 
+}
+
+.headline h1 {
     font-family: 'Lora', serif;
     font-weight: 400;
     font-size: 60pt;
@@ -15,6 +29,8 @@ font-family: 'Crimson Text', serif;*/
     
     
 }
+
+
 
 hr { 
     margin-top: 1em;
@@ -27,7 +43,7 @@ hr {
 
 
 
-.subheadline h2{
+.subheadline h2 {
     font-family: 'Crimson Text', serif;
     font-weight: 400;
     font-style: italic;
@@ -36,6 +52,18 @@ hr {
     padding-top: 20px;
     padding-bottom: 20px;
     
+    
+}
+
+.subheadline {
+    opacity: 0;
+    transform: translate3d(10px);
+    transition: all 1s ease-out;
+}
+
+.subheadline.fade-in {
+   opacity: 1;
+   transform: translateY(0px); 
 }
 
 p{
