@@ -143,7 +143,7 @@ h3 {
     letter-spacing: 8pt;
     text-align: center;
     text-indent: 0.6em;
-    color: white;
+    color: black;
     
     
     
@@ -156,22 +156,14 @@ h1 {
     letter-spacing: 40pt;
     text-align: center;
     text-indent: 0.6em;
-    color: white;
+    color: black;
     padding-bottom: 10px;
     
     
 }
 
 
-hr { 
-    margin-top: 1em;
-    margin-bottom: 1em;
-    margin-left: 25%;
-    margin-right: 25%;
-    border-width: 1px;
-    border-color: white;
-    
-}
+
 
 h2 {
     font-family: 'Crimson Text', serif;
@@ -179,9 +171,7 @@ h2 {
     font-style: italic;
     font-size: 20pt;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: white;
+    color: black;
    
     
 }
