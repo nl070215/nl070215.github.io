@@ -90,10 +90,11 @@ p::first-letter {
 /*start navigation*/
 #nav {
     position: fixed;
-    margin-top: auto;
-    margin-bottom: auto;
-    align-self: center;
+    height: 50%;
+    top: 50%;
+    transform: translateY(-50%);
     z-index: 100;
+    margin-left: -2px;
 }
 .navbar img{
     position: absolute;
