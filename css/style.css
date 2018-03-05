@@ -1,11 +1,25 @@
 /*font-family: 'Lato', sans-serif;
 font-family: 'Lora', serif;
 font-family: 'Crimson Text', serif;*/
-.headline{
-    align-items: center;
+
+
+/*PREVIOUS
+.intro img {
+    z-index: -1;
 }
 
-.headline h1{
+.headline {
+    opacity: 0;
+    transform: translateY(-50px);
+    transition: all 1s ease-out;
+}
+
+.headline.fade-in {
+   opacity: 1;
+   transform: translateY(0px); 
+}
+
+.headline h1 {
     font-family: 'Lora', serif;
     font-weight: 400;
     font-size: 60pt;
@@ -15,6 +29,8 @@ font-family: 'Crimson Text', serif;*/
     
     
 }
+
+
 
 hr { 
     margin-top: 1em;
@@ -27,7 +43,7 @@ hr {
 
 
 
-.subheadline h2{
+.subheadline h2 {
     font-family: 'Crimson Text', serif;
     font-weight: 400;
     font-style: italic;
@@ -36,6 +52,18 @@ hr {
     padding-top: 20px;
     padding-bottom: 20px;
     
+    
+}
+
+.subheadline {
+    opacity: 0;
+    transform: translate3d(10px);
+    transition: all 1s ease-out;
+}
+
+.subheadline.fade-in {
+   opacity: 1;
+   transform: translateY(0px); 
 }
 
 p{
@@ -57,3 +85,127 @@ p::first-letter {
  padding-right: 8px;
  padding-left: 3px;
 }
+*/
+
+/*start navigation*/
+#nav {
+    position: fixed;
+    margin-top: auto;
+    margin-bottom: auto;
+    align-self: center;
+    z-index: 100;
+}
+.navbar img{
+    position: absolute;
+    margin-top: 40px;
+}
+
+ul {
+    position: absolute;
+    margin-left: -40px;
+    list-style: none;
+    z-index: 200;
+
+}
+
+li {
+    margin-top: 0px;
+
+
+}
+/*end navigation*/
+
+
+
+
+
+
+/*start intro*/
+html, body {
+    height: 100%;
+}
+#demo {
+    height:100%;
+
+}
+.background img {
+    position: fixed;
+    width: 100%;
+    z-index: -100;
+    
+}
+
+.foreground img {
+    position: fixed;
+    width: 100%;
+    z-index: -95;
+    
+}
+
+.largeTree img {
+    height: auto;
+    z-index: -90;
+    position: absolute;
+    margin-left: -200px;
+}
+
+
+.sign img {
+    width:200px;
+    height:500px;
+    position: relative;
+    margin-top: 100px;
+    margin-left: 800px;  
+    display:inline-block;
+    z-index: -80;
+}
+
+.headline {
+    position: absolute;
+    top: 500px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+h3 {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 15pt;
+    letter-spacing: 8pt;
+    text-align: center;
+    text-indent: 0.6em;
+    color: black;
+    
+    
+    
+}
+
+h1 {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 60pt;
+    letter-spacing: 40pt;
+    text-align: center;
+    text-indent: 0.6em;
+    color: black;
+    padding-bottom: 10px;
+    
+    
+}
+
+
+
+
+h2 {
+    font-family: 'Crimson Text', serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 20pt;
+    text-align: center;
+    color: black;
+   
+    
+}
+/*end intro*/
