@@ -87,7 +87,40 @@ p::first-letter {
 }
 */
 
+/*start navigation*/
+#nav {
+    position: fixed;
+    margin-top: auto;
+    margin-bottom: auto;
+    align-self: center;
+    z-index: 100;
+}
+.navbar img{
+    position: absolute;
+    margin-top: 40px;
+}
 
+ul {
+    position: absolute;
+    margin-left: -40px;
+    list-style: none;
+    z-index: 200;
+
+}
+
+li {
+    margin-top: 0px;
+
+
+}
+/*end navigation*/
+
+
+
+
+
+
+/*start intro*/
 html, body {
     height: 100%;
 }
@@ -175,3 +208,4 @@ h2 {
    
     
 }
+/*end intro*/
