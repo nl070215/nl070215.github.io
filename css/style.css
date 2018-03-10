@@ -87,6 +87,8 @@ p::first-letter {
 }
 */
 
+
+
 /*start navigation*/
 #nav {
     position: fixed;
@@ -117,27 +119,41 @@ li {
 /*end navigation*/
 
 
+/*start quotes*/
+.introquote {
+    height: 100%;
 
+
+}
+.introquote h2 {
+    font-family: 'Crimson Text', serif;
+    font-weight: 700;
+    font-size: 20pt;
+    text-align: center;
+    color: black;
+    margin-right: 150px;
+    margin-left: 150px;
+
+}
+/*end quotes*/
 
 
 
 /*start intro*/
-html, body {
-    height: 100%;
-}
+
 #demo {
-    height:100%;
+    height: 100%;
 
 }
 .background img {
-    position: fixed;
+    position: absolute;
     width: 100%;
     z-index: -100;
     
 }
 
 .foreground img {
-    position: fixed;
+    position: absolute;
     width: 100%;
     z-index: -95;
     
@@ -199,7 +215,7 @@ h1 {
 
 
 
-h2 {
+.headline h2 {
     font-family: 'Crimson Text', serif;
     font-weight: 400;
     font-style: italic;
