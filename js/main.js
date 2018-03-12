@@ -40,3 +40,12 @@ TweenLite.to(".largeTree", 2.5, { ease: Power0.easeNone, x: "200" });
 
 //start headline animation  
 TweenLite.to(".headline", 3.5, { ease: Power0.easeNone, y: "-200" });
+
+$('.owl-carousel').owlCarousel({
+    margin: 10,
+    items: 1,
+    stagePadding: 100,
+    nav: true,
+    loop: true
+  });
+ 

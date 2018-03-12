@@ -226,3 +226,21 @@ h1 {
     
 }
 /*end intro*/
+
+/*start slideshow*/
+.owl-carousel .item h4 {
+  color: black;
+  font-weight: 400;
+  margin-top: 0em;
+}
+
+.owl-carousel .item {
+    
+}
+
+.wrapper .owl-carousel {
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
