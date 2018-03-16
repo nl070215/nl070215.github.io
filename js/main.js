@@ -33,13 +33,13 @@
 //start sign animation
 $(document).ready(function(){   
 TweenMax.from(".sign", 3, {rotation: -60, transformOrigin: '80% 100%'}, 2);
-    });
+});
 
 //start largeTree animation  
 TweenLite.to(".largeTree", 2.5, { ease: Power0.easeNone, x: "200" });
 
 //start headline animation  
-TweenLite.to(".headline", 3.5, { ease: Power0.easeNone, y: "-200" });
+TweenLite.to(".headline", 3, { ease: Power0.easeNone, y: "-200" });
 
 $('.owl-carousel').owlCarousel({
     margin: 10,

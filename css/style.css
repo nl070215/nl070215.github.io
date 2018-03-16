@@ -120,6 +120,9 @@ li {
 
 
 /*start quotes*/
+#splashscreen {
+}
+
 .introquote {
     height: 100%;
 
@@ -142,26 +145,26 @@ li {
 /*start intro*/
 
 #demo {
-    height: 100%;
+    height: 750px;
 
 }
 .background img {
     position: absolute;
     width: 100%;
-    z-index: -100;
+    z-index: -1000;
     
 }
 
 .foreground img {
     position: absolute;
     width: 100%;
-    z-index: -95;
+    z-index: -900;
     
 }
 
 .largeTree img {
-    height: auto;
-    z-index: -90;
+    height: 625px;
+    z-index: -800;
     position: absolute;
     margin-left: -200px;
 }
@@ -174,7 +177,7 @@ li {
     margin-top: 100px;
     margin-left: 800px;  
     display:inline-block;
-    z-index: -80;
+    z-index: -700;
 }
 
 .headline {
@@ -182,11 +185,10 @@ li {
     top: 500px;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%);
-    
+    transform: translate(-50%, -50%);   
 }
 
-h3 {
+.headline h3 {
     font-family: 'Lora', serif;
     font-weight: 400;
     font-size: 15pt;
@@ -194,12 +196,9 @@ h3 {
     text-align: center;
     text-indent: 0.6em;
     color: black;
-    
-    
-    
 }
 
-h1 {
+.headline h1 {
     font-family: 'Lora', serif;
     font-weight: 400;
     font-size: 60pt;
@@ -207,13 +206,8 @@ h1 {
     text-align: center;
     text-indent: 0.6em;
     color: black;
-    padding-bottom: 10px;
-    
-    
+    padding-bottom: 10px;   
 }
-
-
-
 
 .headline h2 {
     font-family: 'Crimson Text', serif;
@@ -221,11 +215,42 @@ h1 {
     font-style: italic;
     font-size: 20pt;
     text-align: center;
-    color: black;
-   
-    
+    color: black;   
 }
+
 /*end intro*/
+
+/*start chapter 1 story*/
+
+.chapter h3 {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 15pt;
+    letter-spacing: 8pt;
+    text-align: center;
+    text-indent: 0.6em;
+    color: black;   
+}
+
+.chapter h1 {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 60pt;
+    text-align: center;
+    color: black;
+    padding-bottom: 10px;   
+}
+
+.chapter h2 {
+    font-family: 'Crimson Text', serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 20pt;
+    text-align: center;
+    color: black;   
+}
+
+/*end chapter 1 story*/
 
 /*start slideshow*/
 .owl-carousel .item h4 {
