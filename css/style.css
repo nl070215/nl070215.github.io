@@ -252,6 +252,16 @@ li {
 
 /*end chapter 1 story*/
 
+/*start chapter 1 video*/
+
+.chapter video {
+    height: 100%;
+    width: 100%;
+
+}
+
+/*end chapter 1 video*/
+
 /*start slideshow*/
 .owl-carousel .item h4 {
   color: black;
