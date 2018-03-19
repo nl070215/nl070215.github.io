@@ -181,9 +181,9 @@ li {
 }
 
 .headline {
-    position: absolute;
-    top: 500px;
-    left: 50%;
+    z-index: 1;
+    position: relative;
+    margin-left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);   
 }
@@ -278,4 +278,9 @@ li {
     padding-top: 100px;
     padding-bottom: 100px;
     
+}
+
+.full-screen {
+    width: 100vh;
+    height: 100vh;
 }
