@@ -87,6 +87,10 @@ p::first-letter {
 }
 */
 
+html, body {
+    width: 100%;
+
+}
 
 
 /*start navigation*/
@@ -146,34 +150,36 @@ li {
 /*start intro*/
 
 #demo {
-    height: 100%;
+    
 }
 .background img {
     position: absolute;
     z-index: -1000;
-    width: 100%;
-    
+    width: 100vw;
+    bottom: 0;
 }
 
 .foreground img {
     position: absolute;
     z-index: -900;
-    width: 100%;
+    width: 100vw;
+    bottom: 0;
+    /*add min heigh max height*/
     
 }
 
 .largeTree img {
-    height: 650px;
-    z-index: -800;
     position: absolute;
-    margin-left: -200px;
+    height: 700px;
+    z-index: -800;
+    margin-left: -100px;
 }
 
 
 .sign img {
     width:200px;
     height:500px;
-    position: relative;
+    position: absolute;
     margin-top: 100px;
     margin-left: 700px;  
     display: inline-block;
@@ -183,9 +189,9 @@ li {
 .headline {
     z-index: 1;
     position: absolute;
-    margin-left: 50%;
-    margin-right: -50%;
+    left: 50%;
     transform: translate(-50%, -50%);
+    bottom: 0;
 }
 
 .headline h3 {
@@ -236,7 +242,7 @@ li {
     letter-spacing: 8pt;
     text-align: center;
     text-indent: 0.6em;
-    color: black;   
+    color: black;  
 }
 
 .chapter h1 {
@@ -288,6 +294,8 @@ li {
 }
 /*center everything in window*/
 .full-screen {
-    width: 100vh;
+    width: 100vw;
     height: 100vh;
+    position: relative;
+    overflow: hidden;
 }

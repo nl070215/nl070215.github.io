@@ -36,7 +36,7 @@ TweenMax.from(".sign", 3, {rotation: -60, transformOrigin: '80% 100%'}, 2);
 });
 
 //start largeTree animation  
-TweenLite.to(".largeTree", 2.5, { ease: Power0.easeNone, x: "200" });
+TweenLite.to(".largeTree", 2.5, { ease: Power0.easeNone, x: "100" });
 
 //start headline animation  
 TweenLite.to(".headline", 3, { ease: Power0.easeNone, y: "-200" });
