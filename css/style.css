@@ -286,12 +286,8 @@ li {
     padding-bottom: 100px;
     
 }
-
+/*center everything in window*/
 .full-screen {
     width: 100vh;
     height: 100vh;
-}
-
-.screen-center {
-    
 }
