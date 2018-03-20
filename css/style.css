@@ -121,12 +121,15 @@ li {
 
 /*start quotes*/
 #splashscreen {
+    
 }
 
 .introquote {
-    height: 100%;
-
-
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    
 }
 .introquote h2 {
     font-family: 'Crimson Text', serif;
@@ -134,9 +137,7 @@ li {
     font-size: 20pt;
     text-align: center;
     color: black;
-    margin-right: 150px;
-    margin-left: 150px;
-
+    
 }
 /*end quotes*/
 
@@ -145,25 +146,24 @@ li {
 /*start intro*/
 
 #demo {
-    height: 750px;
-
+    height: 100%;
 }
 .background img {
     position: absolute;
-    width: 100%;
     z-index: -1000;
+    width: 100%;
     
 }
 
 .foreground img {
     position: absolute;
-    width: 100%;
     z-index: -900;
+    width: 100%;
     
 }
 
 .largeTree img {
-    height: 625px;
+    height: 650px;
     z-index: -800;
     position: absolute;
     margin-left: -200px;
@@ -175,17 +175,17 @@ li {
     height:500px;
     position: relative;
     margin-top: 100px;
-    margin-left: 800px;  
-    display:inline-block;
+    margin-left: 700px;  
+    display: inline-block;
     z-index: -700;
 }
 
 .headline {
     z-index: 1;
-    position: relative;
+    position: absolute;
     margin-left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%);   
+    transform: translate(-50%, -50%);
 }
 
 .headline h3 {
@@ -196,6 +196,7 @@ li {
     text-align: center;
     text-indent: 0.6em;
     color: black;
+    
 }
 
 .headline h1 {
@@ -221,7 +222,13 @@ li {
 /*end intro*/
 
 /*start chapter 1 story*/
+.chapter {
+    padding-top: 200px;
+    margin-right: auto;
+    margin-left: auto;
 
+
+}
 .chapter h3 {
     font-family: 'Lora', serif;
     font-weight: 400;
@@ -254,7 +261,7 @@ li {
 
 /*start chapter 1 video*/
 
-.chapter video {
+.chapter-video {
     height: 100%;
     width: 100%;
 
@@ -283,4 +290,8 @@ li {
 .full-screen {
     width: 100vh;
     height: 100vh;
+}
+
+.screen-center {
+    
 }
