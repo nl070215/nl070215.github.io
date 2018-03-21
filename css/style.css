@@ -235,8 +235,16 @@ li {
     margin-right: auto;
     margin-left: auto;
 
+}
+
+.chapter img {
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
 
 }
+
 .chapter h3 {
     font-family: 'Lora', serif;
     font-weight: 400;
@@ -307,12 +315,14 @@ li {
     position: absolute;
     left: 0;
     z-index: 100;
+    
 }
 
 .slideshow-right {
     position: absolute;
     right: 0;
     z-index: 100;
+    
     
 }
 /*center everything in window*/
