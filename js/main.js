@@ -47,5 +47,6 @@ $('.owl-carousel').owlCarousel({
     stagePadding: 100,
     nav: true,
     loop: true
+    
   });
  
