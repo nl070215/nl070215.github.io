@@ -276,56 +276,51 @@ li {
     color: black;   
 }
 
-/*end animated intro*/
 */
 
 
 
 /*start chapter 1 story*/
-.chapter {
-    padding-top: 200px;
+.ch1 {
     margin-right: auto;
     margin-left: auto;
+}
+
+.ch1 .ch1-title {
+    padding-top: 300px;
+    bottom: 0;
 
 }
 
-.chapter img {
-    margin-right: auto;
-    margin-left: auto;
-    display: flex;
-    align-items: center;
+.ch1 img {
+    position: absolute;
+    z-index: -900;
+    width: 100vw;
 
 }
 
-.chapter h3 {
+.ch1-title h3 {
     font-family: 'Lora', serif;
     font-weight: 400;
     font-size: 15pt;
     letter-spacing: 8pt;
     text-align: center;
     text-indent: 0.6em;
-    color: black;  
+    color: white;
+    text-shadow: 0 3px 5px #000000;
 }
 
-.chapter h1 {
+.ch1-title h1 {
     font-family: 'Lora', serif;
     font-weight: 400;
-    font-size: 60pt;
+    font-size: 40pt;
     text-align: center;
-    color: black;
-    padding-bottom: 10px;
+    color: white;
+    text-shadow: 0 3px 5px #000000;
     margin-right: 10%;
     margin-left: 10%;
 }
 
-.chapter h2 {
-    font-family: 'Crimson Text', serif;
-    font-weight: 400;
-    font-style: italic;
-    font-size: 20pt;
-    text-align: center;
-    color: black;   
-}
 
 /*end chapter 1 story*/
 
