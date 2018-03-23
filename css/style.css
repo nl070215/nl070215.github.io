@@ -356,6 +356,10 @@ li {
 
 }
 
+.owl-next {
+    background: red;
+}
+
 
 .owl-wrapper {
     width: 100%;
