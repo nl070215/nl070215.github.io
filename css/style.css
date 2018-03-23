@@ -123,19 +123,21 @@ li {
 /*end navigation*/
 
 
-/*start quotes*/
-#splashscreen {
-    
+/*START Project Intro Pull Quote*/
+#splashscreen { 
 }
+
 
 .introquote {
     margin-right: auto;
     margin-left: auto;
     display: flex;
-    align-items: center;
-    
+    align-items: center; 
 }
-.introquote h2 {
+
+
+.introquote h1 {
+    position: absolute;
     font-family: 'Crimson Text', serif;
     font-weight: 700;
     font-size: 20pt;
@@ -143,17 +145,64 @@ li {
     color: black;
     margin-left: 25%;
     margin-right: 25%;
-    
 }
-/*end quotes*/
+/*END Project Intro Pull Quote*/
 
 
-
-/*start animated intro*/
-
+/*START Drone Footage and Title*/
 #demo {
     
 }
+
+.video {
+}
+
+.headline {
+    padding-top: 400px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.headline h1 {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 60pt;
+    letter-spacing: 40pt;
+    text-align: center;
+    text-indent: 0.6em;
+    color: black;
+    padding-bottom: 10px;   
+}
+
+.headline h2 {
+    font-family: 'Crimson Text', serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 20pt;
+    text-align: center;
+    color: black;   
+}
+
+.headline h3 {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 15pt;
+    letter-spacing: 8pt;
+    text-align: center;
+    text-indent: 0.6em;
+    color: black;
+    
+}
+
+
+
+
+/*END Drone Footage and Title*/
+
+
+/*
+
+
 .background img {
     position: absolute;
     z-index: -1000;
@@ -166,7 +215,7 @@ li {
     z-index: -900;
     width: 100vw;
     bottom: 0;
-    /*add min heigh max height*/
+    /*add min heigh max height
     
 }
 
@@ -228,6 +277,9 @@ li {
 }
 
 /*end animated intro*/
+*/
+
+
 
 /*start chapter 1 story*/
 .chapter {
