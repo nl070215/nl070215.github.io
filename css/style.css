@@ -150,7 +150,8 @@ li {
 
 
 /*START Drone Footage and Title*/
-#demo .video {
+#demo video {
+    position:absolute;
     z-index: -2000;
 }
 
