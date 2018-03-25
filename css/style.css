@@ -327,55 +327,47 @@ li {
 /*start chapter 1 video*/
 
 .chapter-video {
-    height: 100%;
-    width: 100%;
+    
 
 }
 
 /*end chapter 1 video*/
 
 /*start slideshow*/
-.owl-carousel .item h4 {
-  color: black;
-  font-weight: 400;
-  margin-top: 0em;
+
+
+.owl-next{    
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 100px;
+    height: 100%;
+    /*background: url('img/slidshow_right.svg');*/
 }
 
-.owl-carousel .item {
-    
-}
-
-.owl-vertical {
-    padding-top: 150px;
-    
-
-}
-
-.owl-next {
-    background: red;
+.owl-prev {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 100px;
+    height: 100%;
+    /*background: url('img/slideshow_left.svg');*/
 }
 
 
 .owl-wrapper {
     width: 100%;
     z-index: 0;
+    padding-top: 200px;
+    position: relative;
     
 }
 
-.slideshow-left {
-    position: absolute;
-    left: 0;
-    z-index: 100;
-    
-}
 
-.slideshow-right {
-    position: absolute;
-    right: 0;
-    z-index: 100;
-    
-    
-}
 /*center everything in window*/
 .full-screen {
     width: 100vw;
