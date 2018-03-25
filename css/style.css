@@ -150,17 +150,16 @@ li {
 
 
 /*START Drone Footage and Title*/
-#demo {
-    
+#demo .video {
+    z-index: -2000;
 }
 
-.video {
-}
 
 .headline {
     padding-top: 400px;
     margin-right: auto;
     margin-left: auto;
+    z-index: 1000;
 }
 
 .headline h1 {
@@ -357,6 +356,24 @@ li {
     height: 100%;
 }
 
+.left-arrow {
+    position: absolute;
+    left: 0;
+    z-index: 200;
+    
+    
+}
+
+.right-arrow {
+    position: absolute;
+    right: 0;
+    z-index: 200;
+    
+    
+    
+
+
+}
 
 .owl-wrapper {
     width: 100%;
