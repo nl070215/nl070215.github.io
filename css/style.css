@@ -342,6 +342,7 @@ li {
     right: 0;
     z-index: 100;
     background-color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0);
     width: 100px;
     height: 100%;
     /*background: url('img/slidshow_right.svg');*/
@@ -353,6 +354,7 @@ li {
     left: 0;
     z-index: 100;
     background-color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0);
     width: 100px;
     height: 100%;
     /*background: url('img/slideshow_left.svg');*/
