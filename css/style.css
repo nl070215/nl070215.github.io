@@ -149,8 +149,13 @@ li {
 /*END Project Intro Pull Quote*/
 
 
-/*START Drone Footage and Title*/
-#demo video {
+
+
+
+
+
+/*Start Text Over Full Screen Video*/
+.full-vid video {
     position:absolute;
     z-index: -2000;
     height: 100vh;
@@ -196,10 +201,12 @@ li {
     
 }
 
+/*End Text Over Full Screen Video*/
 
 
 
-/*END Drone Footage and Title*/
+
+
 
 
 /*
@@ -282,26 +289,26 @@ li {
 
 
 
-/*start chapter 1 story*/
-.ch1 {
+/*Start Chapter Title Text Over Full Screen Image*/
+.full-img {
     margin-right: auto;
     margin-left: auto;
 }
 
-.ch1 .ch1-title {
+.full-img .title {
     padding-top: 300px;
     bottom: 0;
 
 }
 
-.ch1 img {
+.full-img img {
     position: absolute;
     z-index: -900;
     width: 100vw;
 
 }
 
-.ch1-title h3 {
+.title h3 {
     font-family: 'Lora', serif;
     font-weight: 400;
     font-size: 15pt;
@@ -312,7 +319,7 @@ li {
     text-shadow: 0 3px 5px #000000;
 }
 
-.ch1-title h1 {
+.title h1 {
     font-family: 'Lora', serif;
     font-weight: 400;
     font-size: 40pt;
@@ -324,7 +331,39 @@ li {
 }
 
 
-/*end chapter 1 story*/
+
+
+
+
+/*Start Pull Quote Over Full Screen Image*/
+/*full-img class has already been called on previously*/
+
+.pull-quote {
+    display: flex;
+    align-items: center;
+}
+
+
+.pull-quote h3 {
+    
+    font-family: 'Crimson Text', serif;
+    font-weight: 700;
+    font-size: 20pt;
+    text-align: center;
+    color: black;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 25%;
+    margin-bottom: 25%;
+}
+
+
+/*Start Chapter Title Text Over Full Screen Image*/
+
+
+
+
+
 
 /*start chapter 1 video*/
 
