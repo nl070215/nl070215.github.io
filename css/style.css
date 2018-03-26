@@ -330,7 +330,7 @@ li {
     margin-left: 10%;
 }
 
-
+/*End Chapter Title Text Over Full Screen Image*/
 
 
 
@@ -357,9 +357,21 @@ li {
     margin-bottom: 25%;
 }
 
+/*End Pull Quote Over Full Screen Image*/
 
-/*Start Chapter Title Text Over Full Screen Image*/
 
+
+
+/*Start Audio Portrait Full Screen Image*/
+
+
+audio {
+    width: 175px;
+    position: absolute;
+    left: 0;
+    top: 0;.
+    
+}
 
 
 
