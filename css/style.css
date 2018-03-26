@@ -153,6 +153,8 @@ li {
 #demo video {
     position:absolute;
     z-index: -2000;
+    height: 100vh;
+    width: 100%;
 }
 
 
@@ -170,7 +172,7 @@ li {
     letter-spacing: 40pt;
     text-align: center;
     text-indent: 0.6em;
-    color: black;
+    color: white;
     padding-bottom: 10px;   
 }
 
@@ -180,7 +182,7 @@ li {
     font-style: italic;
     font-size: 20pt;
     text-align: center;
-    color: black;   
+    color: white;   
 }
 
 .headline h3 {
@@ -190,7 +192,7 @@ li {
     letter-spacing: 8pt;
     text-align: center;
     text-indent: 0.6em;
-    color: black;
+    color: white;
     
 }
 
@@ -343,7 +345,9 @@ li {
     color: rgba(255, 255, 255, 0);
     width: 100px;
     height: 100%;
-    
+    background-image: url("../img/slideshow_right.svg");
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .owl-prev {
@@ -355,6 +359,9 @@ li {
     color: rgba(255, 255, 255, 0);
     width: 100px;
     height: 100%;
+    background-image: url("../img/slideshow_left.svg");
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .left-arrow {
@@ -362,18 +369,12 @@ li {
     left: 0;
     z-index: 200;
     
-    
 }
 
 .right-arrow {
     position: absolute;
     right: 0;
     z-index: 200;
-    
-    
-    
-
-
 }
 
 .owl-wrapper {
