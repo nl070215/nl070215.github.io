@@ -104,11 +104,12 @@ html, body {
 }
 .navbar img{
     position: absolute;
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
 ul {
     position: absolute;
+    top: 35%;
     margin-left: -40px;
     list-style: none;
     z-index: 200;
@@ -376,17 +377,13 @@ audio {
 
 
 
-/*start chapter 1 video*/
 
-.chapter-video {
-    
 
-}
 
-/*end chapter 1 video*/
 
-/*START OWL CAROUSEL STYLE*/
-.owl-next{    
+
+/*START SLIDESHOW OWL CAROUSEL STYLE*/
+.owl-next {    
     position: absolute;
     top: 0;
     right: 0;
@@ -433,7 +430,35 @@ audio {
     padding-top: 200px;
     position: relative;   
 }
-/*END OWL CAROUSEL STYLE*/
+/*END SLIDESHOW OWL CAROUSEL STYLE*/
+
+
+
+
+
+
+
+/*START VERTICAL IMAGE AND TEXT STYLE*/
+
+.vert-img img {
+    width: 25%;
+
+}
+
+.vert-text .p {
+    width: 50%;
+
+}
+
+
+
+
+/*END VERTICAL IMAGE AND TEXT STYLE*/
+
+
+
+
+
 
 
 
