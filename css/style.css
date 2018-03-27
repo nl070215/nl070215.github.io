@@ -104,12 +104,12 @@ html, body {
 }
 .navbar img{
     position: absolute;
-    margin-top: 50px;
+    top: 60%;
+    
 }
 
 ul {
     position: absolute;
-    top: 35%;
     margin-left: -40px;
     list-style: none;
     z-index: 200;
@@ -117,7 +117,7 @@ ul {
 }
 
 li {
-    margin-top: 0px;
+    margin-top: 5px;
 
 
 }
@@ -125,27 +125,28 @@ li {
 
 
 /*START Project Intro Pull Quote*/
-#splashscreen { 
+.splashscreen { 
+    position: absolute;
+    width: 100%;
+    height: 100vh;
 }
-
 
 .introquote {
-    margin-right: auto;
+    position: relative;
+    top: 50%;
     margin-left: auto;
-    display: flex;
-    align-items: center; 
+    margin-right: auto;
 }
 
-
 .introquote h1 {
-    position: absolute;
+    position: relative;
     font-family: 'Crimson Text', serif;
     font-weight: 700;
     font-size: 20pt;
     text-align: center;
     color: black;
-    margin-left: 25%;
-    margin-right: 25%;
+    top: 50%;
+    
 }
 /*END Project Intro Pull Quote*/
 
@@ -157,7 +158,7 @@ li {
 
 /*Start Text Over Full Screen Video*/
 .full-vid video {
-    position:absolute;
+    position: absolute;
     z-index: -2000;
     height: 100vh;
     width: 100%;
@@ -165,9 +166,10 @@ li {
 
 
 .headline {
-    padding-top: 400px;
-    margin-right: auto;
+    position: relative;
+    top: 50%;
     margin-left: auto;
+    margin-right: auto;
     z-index: 1000;
 }
 
@@ -175,9 +177,9 @@ li {
     font-family: 'Lora', serif;
     font-weight: 400;
     font-size: 60pt;
-    letter-spacing: 40pt;
+    letter-spacing: 30pt;
     text-align: center;
-    text-indent: 0.6em;
+    text-indent: 0.5em;
     color: white;
     padding-bottom: 10px;   
 }
@@ -197,7 +199,6 @@ li {
     font-size: 15pt;
     letter-spacing: 8pt;
     text-align: center;
-    text-indent: 0.6em;
     color: white;
     
 }
@@ -292,24 +293,33 @@ li {
 
 /*Start Chapter Title Text Over Full Screen Image*/
 .full-img {
-    margin-right: auto;
-    margin-left: auto;
+    position: absolute;
+    z-index: -2000;
+    height: 100vh;
+    width: 100%;
+    
+    
 }
 
-.full-img .title {
-    padding-top: 300px;
-    bottom: 0;
-
-}
 
 .full-img img {
     position: absolute;
-    z-index: -900;
-    width: 100vw;
+    z-index: -2000;
+    width: 100%;
+    height: 100%;
 
 }
 
-.title h3 {
+.ch-title {
+    position: relative;
+    top: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1000;
+
+}
+
+.ch-title h3 {
     font-family: 'Lora', serif;
     font-weight: 400;
     font-size: 15pt;
@@ -320,7 +330,7 @@ li {
     text-shadow: 0 3px 5px #000000;
 }
 
-.title h1 {
+.ch-title h1 {
     font-family: 'Lora', serif;
     font-weight: 400;
     font-size: 40pt;
