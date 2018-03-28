@@ -247,7 +247,7 @@ li {
 
 .ch-title-bg {
     background-color: rgba(99, 110, 114, 0.7);
-    width: 60%;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -260,7 +260,8 @@ li {
     text-align: center;
     text-indent: 0.2em;
     color: white;
-    text-shadow: 0 2px 3px #000000;
+    text-shadow: 0 2px 2px #000000;
+    padding-top: 10px;
 }
 
 .ch-title h1 {
@@ -269,9 +270,7 @@ li {
     font-size: 40pt;
     text-align: center;
     color: white;
-    text-shadow: 0 2px 3px #000000;
-    margin-right: 10%;
-    margin-left: 10%;
+    text-shadow: 0 2px 2px #000000;
 }
 
 /*End Chapter Title Text Over Full Screen Image*/
@@ -311,7 +310,7 @@ li {
 
 audio {
     width: 175px;
-    position: absolute;
+    position: relative;
     left: 0;
     top: 0;
 }
@@ -333,7 +332,6 @@ audio {
     width: 50%;
 
 }
-
 
 
 .vert-img-text h3 {
