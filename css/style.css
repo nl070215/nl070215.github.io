@@ -210,84 +210,6 @@ li {
 
 
 
-/*
-
-
-.background img {
-    position: absolute;
-    z-index: -1000;
-    width: 100vw;
-    bottom: 0;
-}
-
-.foreground img {
-    position: absolute;
-    z-index: -900;
-    width: 100vw;
-    bottom: 0;
-    /*add min heigh max height
-    
-}
-
-.largeTree img {
-    position: absolute;
-    height: 700px;
-    z-index: -800;
-    margin-left: -100px;
-}
-
-
-.sign img {
-    width:200px;
-    height:500px;
-    position: absolute;
-    margin-top: 100px;
-    margin-left: 700px;  
-    display: inline-block;
-    z-index: -700;
-}
-
-.headline {
-    z-index: 1;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    bottom: 0;
-}
-
-.headline h3 {
-    font-family: 'Lora', serif;
-    font-weight: 400;
-    font-size: 15pt;
-    letter-spacing: 8pt;
-    text-align: center;
-    text-indent: 0.6em;
-    color: black;
-    
-}
-
-.headline h1 {
-    font-family: 'Lora', serif;
-    font-weight: 400;
-    font-size: 60pt;
-    letter-spacing: 40pt;
-    text-align: center;
-    text-indent: 0.6em;
-    color: black;
-    padding-bottom: 10px;   
-}
-
-.headline h2 {
-    font-family: 'Crimson Text', serif;
-    font-weight: 400;
-    font-style: italic;
-    font-size: 20pt;
-    text-align: center;
-    color: black;   
-}
-
-*/
-
 
 
 /*Start Chapter Title Text Over Full Screen Image*/
@@ -296,14 +218,23 @@ li {
     z-index: -2000;
     width: 100%;
     height: auto;
-    
-    
-    
+    width: 100%; 
 }
 
 
 .full-img img {
     position: absolute;
+    width: 100%;
+}
+
+.wrapper img {
+    margin-left: 35%;
+}
+
+.full-img .quote {
+    width: 50px;
+    
+    
 }
 
 .ch-title {
@@ -391,6 +322,56 @@ audio {
 
 
 
+/*START VERTICAL IMAGE AND TEXT STYLE*/
+.vert-img-text {
+    position: absolute;
+    
+    
+}
+.vert-img img {
+    position: absolute;
+    width: 50%;
+
+}
+
+
+
+.vert-img-text h3 {
+    margin-left: 55%;
+    width: 40%;
+    font-family: 'Crimson Text', serif;
+    font-weight: 400;
+    font-size: 27pt;
+    font-weight: 600;
+    padding-bottom: 25px;
+}
+
+#drop-cap {
+    font-family: 'Crimson Text', serif;
+    font-weight: 400;
+    font-size: 100pt;
+    float: left;
+    line-height: 80%;
+    
+    
+}
+
+.vert-img-text p {
+    margin-left: 55%;
+    width: 40%;
+    font-family: 'Crimson Text', serif;
+    font-weight: 400;
+    font-size: 15pt;
+}
+
+
+
+
+/*END VERTICAL IMAGE AND TEXT STYLE*/
+
+
+
+
 
 
 
@@ -448,28 +429,60 @@ audio {
 
 
 
-
-
-/*START VERTICAL IMAGE AND TEXT STYLE*/
-
-.vert-img img {
-    width: 25%;
-
+/*START ANIMATION STYLE*/
+.background img {
+    position: absolute;
+    z-index: -1000;
+    width: 100vw;
+    bottom: 0;
 }
 
-.vert-text .p {
-    width: 50%;
+.foreground img {
+    position: absolute;
+    z-index: -900;
+    width: 100vw;
+    bottom: 0;
+    add min heigh max height
+    
+}
 
+.largeTree img {
+    position: absolute;
+    height: 1000px;
+    z-index: -800;
+    margin-left: -100px;
 }
 
 
+.sign img {
+    width:200px;
+    height:500px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 700px;  
+    display: inline-block;
+    z-index: -700;
+}
 
+.continue {
+    z-index: 1;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: 100px;
+}
 
-/*END VERTICAL IMAGE AND TEXT STYLE*/
+.continue h3 {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 15pt;
+    letter-spacing: 5pt;
+    text-align: center;
+    color: black;
+    
+}
 
-
-
-
+/*END ANIMATION STYLE*/
 
 
 
