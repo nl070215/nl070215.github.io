@@ -162,8 +162,9 @@ li {
 
 .wrapper img {
     position: relative;
-    margin-left: 35%;
+    right: -35%;
     z-index: -10000;
+    border-color: aquamarine;
 }
 
 .pull-quote {
