@@ -105,7 +105,7 @@ li {
 /*Start Chapter Title Text Over Full Screen Image*/
 .full-img {
     position: relative;
-    z-index: -2000;
+    z-index: -5000;
     width: 100%;
     height: auto;
 }
@@ -114,6 +114,7 @@ li {
 .full-img img {
     position: relative;
     width: 100%;
+    z-index: -5000;
 }
 
 
@@ -159,9 +160,10 @@ li {
 }
 
 
-
 .wrapper img {
+    position: relative;
     margin-left: 35%;
+    z-index: -10000;
 }
 
 .pull-quote {
@@ -169,26 +171,28 @@ li {
     top: 40%;
     left: 6%;
     width: 25%;
+    background-color: 
+    
 }
 
 .pull-quote img {
-    position: absolute;
+    z-index: -1000;
 }
 
 .pull-quote h3 {
-    position: absolute;
     font-family: 'Crimson Text', serif;
     font-weight: 400;
     font-size: 2vw;
     color: black;
-    margin-top: 50px;
+    margin-top: 10px;
+    z-index: -1000;
 }
 
-.mediPlayer {
-    position: relative;
-    margin-top: 225px;
-    z-index: 5000;
+.mediPlayer audio {
+    z-index: 10000;
+    display: flex;
 }
+
 
 
 
