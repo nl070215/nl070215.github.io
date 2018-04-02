@@ -204,7 +204,7 @@ li {
 
 /*START VERTICAL IMAGE AND TEXT STYLE*/
 .vert-img-text {
-    position: absolute;
+    position: relative;
     
     
 }
