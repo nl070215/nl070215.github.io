@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
       
     <!-- CSS -->
+      <link rel="stylesheet" href="progres-bar.css">
       <link rel="stylesheet" type="text/css" href="css/style.css">
       
     <!-- FONTS -->
@@ -119,11 +120,14 @@
                         <h3>What led us to being homeless at first? Drug activity and drug addiction.”
                         <br>
                         -Calvin Kirby</h3>
-                        <audio controls preload="auto">
+                        <div class="mediPlayer">
+                        <audio class="listen" preload="none" data-size="250" src="ch1/piano.mp3" id="audio0"></audio>
+                        </div>
+                        <!--<audio controls preload="auto">
 	                    <source src="ch1/whatledus.mp4">
 	                       Your browser does not support the audio element.
                         </audio><br/>
-                        <a href="http://scriptgenerator.net/really-simple-embed-audio-player-script/"></a>
+                        <a href="http://scriptgenerator.net/really-simple-embed-audio-player-script/"></a>-->
 <!--Script for audio player was found here: http://scriptgenerator.net/really-simple-embed-audio-player-script/-->
                         </div>
                 </div>
@@ -152,6 +156,7 @@
             </div>  
         </div>
       </div>
+    
       
       
       
@@ -166,6 +171,14 @@
       <script src="js/skrollr.min.js"></script>
       <script>
       var s = skrollr.init();
+      </script>
+      
+      <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+      <script src="player.js"></script>
+      <script>
+        $(document).ready(function () {
+        $('.mediPlayer').mediaPlayer();
+        });
       </script>
   </body>
 </html>
