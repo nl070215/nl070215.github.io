@@ -1,3 +1,10 @@
+.container-fluid {
+    padding-right: 0; 
+    padding-left: 0;
+}
+
+
+
 /*start navigation*/
 #nav {
     position: fixed;
@@ -161,17 +168,15 @@ li {
 
 
 .wrapper img {
-    position: relative;
-    right: -35%;
+    
+    
     z-index: -10000;
     border-color: aquamarine;
 }
 
 .pull-quote {
-    position: absolute;
-    top: 40%;
-    left: 6%;
-    width: 25%;
+    
+    
     background-color: 
     
 }
@@ -185,15 +190,12 @@ li {
     font-weight: 400;
     font-size: 2vw;
     color: black;
-    margin-top: 10px;
     z-index: -1000;
 }
 
 .mediPlayer audio {
     z-index: 10000;
-    display: flex;
 }
-
 
 
 
@@ -204,26 +206,23 @@ li {
 
 /*START VERTICAL IMAGE AND TEXT STYLE*/
 .vert-img-text {
-    position: relative;
+    
     
     
 }
 .vert-img img {
-    position: absolute;
-    width: 50%;
+    
 
 }
 
 
 .vert-img-text h3 {
-    margin-left: 55%;
-    width: 40%;
+    
     font-family: 'Crimson Text', serif;
     font-weight: 400;
     font-size: 3vw;
     font-weight: 600;
-    padding-top: 15px;
-    padding-bottom: 25px;
+    
 }
 
 #drop-cap {
@@ -237,8 +236,7 @@ li {
 }
 
 .vert-img-text p {
-    margin-left: 55%;
-    width: 40%;
+    
     font-family: 'Crimson Text', serif;
     font-weight: 400;
     font-size: 1.5vw;
