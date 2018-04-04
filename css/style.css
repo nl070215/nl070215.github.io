@@ -168,16 +168,15 @@ li {
 
 
 .wrapper img {
-    
-    
     z-index: -10000;
     border-color: aquamarine;
 }
 
 .pull-quote {
+    padding-right: 10%;
+    padding-left: 20%;
+    margin-top: 45%;
     
-    
-    background-color: 
     
 }
 
@@ -206,11 +205,14 @@ li {
 
 /*START VERTICAL IMAGE AND TEXT STYLE*/
 .vert-img-text {
-    
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     
     
 }
-.vert-img img {
+.vert-img {
     
 
 }
@@ -236,10 +238,9 @@ li {
 }
 
 .vert-img-text p {
-    
     font-family: 'Crimson Text', serif;
     font-weight: 400;
-    font-size: 1.5vw;
+    font-size: 1.75vw;
 }
 
 
