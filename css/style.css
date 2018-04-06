@@ -248,7 +248,7 @@ li {
 
 
 
-
+/*2 STYLES START BLOCK TEXT PARALLAX STYLE 2 STYLES*/
 /*START BLOCK TEXT PARALLAX STYLE*/
 .block-text {
     position: absolute;
@@ -278,6 +278,37 @@ li {
 }
 
 
+/*START BLOCK TEXT PARALLAX STYLE 2*/
+
+.block-text2 {
+    position: absolute;
+    top: 60%;
+    width: 100%;
+    z-index: 1000;
+    
+}
+
+.block-text-bg2 {
+    background-color: rgba(99, 110, 114, 0.7);
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.block-text2 #drop-cap {
+    color: white;
+    font-size: 9vw;
+}
+
+.block-text2 p {
+    font-family: 'Crimson Text', serif;
+    font-weight: 400;
+    font-size: 1.75vw;
+    color: white;
+}
+
+
+
 
 /*START CAROUSEL STYLE*/
 
@@ -293,6 +324,98 @@ li {
     font-weight: 400;
     
 }
+
+
+
+/*START CENTER QUOTE2 (FOR OVER IMAGES)*/
+.center-quote2-wrapper {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    z-index: 1000;
+}
+
+.center-quote2 {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-quote2 h1 {
+    position: relative;
+    font-family: 'Crimson Text', serif;
+    font-weight: 400;
+    font-size: 20pt;
+    text-align: center;
+    color: black;
+    top: 50%;   
+}
+
+
+
+/*START CENTER QUOTE3 (FOR OVER IMAGES NARROW QUOTE)*/
+.center-quote3-wrapper {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    z-index: 1000;
+}
+
+.center-quote3 {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.center-quote3 h1 {
+    position: relative;
+    font-family: 'Crimson Text', serif;
+    font-weight: 400;
+    font-size: 20pt;
+    text-align: center;
+    color: black;
+    top: 50%;   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
