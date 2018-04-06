@@ -23,7 +23,7 @@
 ul {
     position: absolute;
     margin-top: 27px;
-    margin-left: -30px;
+    margin-left: -25px;
     list-style: none;
     z-index: 200;
 
@@ -213,8 +213,10 @@ li {
     
     
 }
-.vert-img {
-    
+.vert-img p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 6vw;
 
 }
 
@@ -242,6 +244,38 @@ li {
     font-family: 'Crimson Text', serif;
     font-weight: 400;
     font-size: 1.75vw;
+}
+
+
+
+
+
+
+
+/*START BLOCK TEXT PARALLAX STYLE*/
+.block-text {
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+
+.block-text-bg {
+    background-color: rgba(99, 110, 114, 0.7);
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.block-text #drop-cap {
+    color: white;
+    font-size: 9vw;
+}
+
+.block-text p {
+    font-family: 'Crimson Text', serif;
+    font-weight: 400;
+    font-size: 1.75vw;
+    color: white;
 }
 
 
