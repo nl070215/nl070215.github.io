@@ -41,90 +41,15 @@ $(document).ready(function(){
     //start headline animation  
     TweenLite.to(".continue", 3, { ease: Power0.easeNone, y: "-200" });
 
-    $('.owl-carousel').owlCarousel({
-        margin: 10,
-        items: 1,
-        stagePadding: 100,
-        nav: true,
-        loop: true
-    });
+    //$('.owl-carousel').owlCarousel({
+        //margin: 10,
+        //items: 1,
+        //stagePadding: 100,
+        //nav: true,
+        //loop: true
+   // });
     
-    
-/* carousel-fill-background.js */
-
-// data object for the gallery 
-var gallery = {
-  name: "Sobriety Point CH 2",
-  photos: [
-    {
-      index: 0,
-      url: '../img/Sample_SP_Castillo.jpg',
-      caption: 'Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.'
-    },
-    {
-      index: 1,
-      url: '../img/Sample_SP_Castillo.jpg',
-      caption: 'Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.'
-    },
-    {
-      index: 2,
-      url: '../img/Sample_SP_Castillo.jpg',
-      caption: 'Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.'
-    }
-  ]
-};
-
-// function to rE9turn HTML for each indicator
-var newIndicator = function(i) {
-  var active = '';
-  if (i === 0) {
-    active = ' active';
-  }
-  return '<li data-target="#myCarousel" data-slide-to="' + i + '" class="' + active + '"></li>';
-};
-
-// function to return HTML for each photo
-var newPhoto = function(item) {
-  var active = item.index === 0 ? ' active' : '';
-  var html = '<div class="carousel-item' + active + '">' +
-  '<div class="bg-cover" style="background: url(' + item.url + ') no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;" ></div>' +
-  '<div class="container"><div class="carousel-caption">' + 
-  '<p>' + item.caption + '</p>' +
-  '</div></div></div>';
-  return html;
-};
-
-// function to return HTML for a new data-driven gallery
-var newGallery = function(data) {
-  // new indicator HTML string
-  var indicatorHtml = '';
-  
-  // new photos HTML string
-  var photosHtml = '';
-  
-  // update gallery name
-  $('#gallery-name').html(data.name);
-  
-  // loop through data objects
-  for (var i = 0; i < data.photos.length; i++) {
-    // add an indicator
-    indicatorHtml += newIndicator(i);
-
-    // add a photo
-    photosHtml += newPhoto(data.photos[i]);
-  }
-
-  // use $ put new indicator HTML into page
-  $('.carousel-indicators').html(indicatorHtml);
-
-  // use $ to put new photos HTML into page
-  $('.carousel-inner').html(photosHtml);
-};
-
-// call our new gallery function and pass in the data
-newGallery(gallery);
-
-    
+   
     
     //add more here
         
