@@ -1,3 +1,9 @@
+body {
+    position: relative;
+}
+
+
+
 .container-fluid {
     padding-right: 0; 
     padding-left: 0;
@@ -23,15 +29,46 @@
 ul {
     position: absolute;
     margin-top: 27px;
-    margin-left: -25px;
-    list-style: none;
+    margin-left: 25px;
+    list-style-type: none;
     z-index: 200;
 
 }
 
-li {
-    margin-top: 5px;
+li a {
+    margin-top: 20px;
+    display: block;
 
+
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    background-color: #939597;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.8s ease;
+
+}
+
+
+.dot:hover {
+    height: 15px;
+    width: 15px;
+    background-color: #bbbdc0;
+    transition: background-color 0.8s ease;
+    border-radius: 50%;
+    display: inline-block;
+
+}
+
+.dot:active {
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
 
 }
 /*end navigation*/
