@@ -42,7 +42,7 @@ li a {
 
 }
 
-.dot {
+li .dot  {
     height: 15px;
     width: 15px;
     background-color: #939597;
@@ -52,8 +52,17 @@ li a {
 
 }
 
+li a:link .dot {
+    height: 15px;
+    width: 15px;
+    background-color: #939597;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.8s ease;
+}
 
-.dot:hover {
+
+li a:hover .dot {
     height: 15px;
     width: 15px;
     background-color: #bbbdc0;
@@ -63,12 +72,13 @@ li a {
 
 }
 
-.dot:active {
+li a:active .dot {
     height: 15px;
     width: 15px;
     background-color: white;
     border-radius: 50%;
     display: inline-block;
+    z-index: 1000;
 
 }
 /*end navigation*/
