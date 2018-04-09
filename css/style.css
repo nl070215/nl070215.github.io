@@ -1,3 +1,4 @@
+/*css utilized in entire site*/
 body {
     position: relative;
 }
@@ -7,6 +8,13 @@ body {
 .container-fluid {
     padding-right: 0; 
     padding-left: 0;
+}
+
+.audio-length {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 14pt;
+    margin-left: 10px;
 }
 
 
@@ -145,7 +153,6 @@ li a:active .dot {
     font-family: 'Crimson Text', serif;
     font-weight: 400;
     font-size: 2vw;
-    text-indent: -2em;
     text-align: center;
     color: white;   
 }
@@ -294,8 +301,8 @@ li a:active .dot {
 .vert-img-text {
     padding-left: 5%;
     padding-right: 15%;
-    padding-bottom: 5%;
-    padding-top: 40%;
+    padding-bottom: 20%;
+    padding-top: 20%;
     
     
 }
@@ -352,7 +359,7 @@ li a:active .dot {
 
 .block-text-bg {
     background-color: rgba(99, 110, 114, 0.7);
-    width: 35%;
+    width: 37%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -382,7 +389,7 @@ li a:active .dot {
 
 .block-text-bg2 {
     background-color: rgba(99, 110, 114, 0.7);
-    width: 30%;
+    width: 40%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -445,6 +452,7 @@ li a:active .dot {
 
 
 
+
 /*START CENTER QUOTE3 (FOR OVER IMAGES NARROW QUOTE)*/
 .center-quote3-wrapper {
     position: absolute;
@@ -475,10 +483,16 @@ li a:active .dot {
 
 
 
+/*Centered 360 and Centered Chapter 2 Text*/
 
+.ch2-top-img {
+    width: 100%;
+    padding-top: 50px;
+}
 
-
-
+.ch2-top-img img {
+    width: 100%;
+}
 
 
 
