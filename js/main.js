@@ -1,3 +1,33 @@
+$(function () { // wait for document ready
+		// build scene
+		var scene = new ScrollMagic.Scene({
+            triggerElement: "#trigger1",
+            triggerHook: 0,
+            duration: 2000
+        })
+				.setPin("#pin1")
+				.addIndicators({name: "1 (duration: 1500)"}) // add indicators (requires plugin)
+				.addTo(controller);
+    
+        // build scene
+		var scene = new ScrollMagic.Scene({
+            triggerElement: "#trigger2",
+            triggerHook: 0,
+            duration: 2000
+        })
+				.setPin("#pin2")
+				.addIndicators({name: "1 (duration: 1500)"}) // add indicators (requires plugin)
+				.addTo(controller);
+    
+	});
+                    
+
+    
+
+
+
+
+
 
    //Init ScrollMagic
     //var controller = new ScrollMagic.Controller();
@@ -31,15 +61,15 @@
 
 
 //start sign animation
-$(document).ready(function(){   
+// $(document).ready(function(){   
     
-    TweenMax.from(".sign", 3, {rotation: -50,   transformOrigin: '80% 100%'}, 2);
+ //   TweenMax.from(".sign", 3, {rotation: -50,   transformOrigin: '80% 100%'}, 2);
 
     //start largeTree animation  
-    TweenLite.to(".largeTree", 2.5, { ease: Power0.easeNone, x: "100" });
+//    TweenLite.to(".largeTree", 2.5, { ease: Power0.easeNone, x: "100" });
 
     //start headline animation  
-    TweenLite.to(".continue", 3, { ease: Power0.easeNone, y: "-200" });
+//    TweenLite.to(".continue", 3, { ease: Power0.easeNone, y: "-200" });
 
     //$('.owl-carousel').owlCarousel({
         //margin: 10,
@@ -50,38 +80,11 @@ $(document).ready(function(){
    // });
     
    
-    // Add scrollspy to <body>
-$('body').scrollspy({target: ".navbar", offset: 50});
-
-// Add smooth scrolling on all links inside the navbar
-$(".nav a").on('click', function(event) {
-
-  // Make sure this.hash has a value before overriding default behavior
-  if (this.hash !== "") {
-
-    // Prevent default anchor click behavior
-    event.preventDefault();
-
-    // Store hash
-    var hash = this.hash;
-
-    // Using jQuery's animate() method to add smooth page scroll
-    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-    $('html, body').animate({
-      scrollTop: $(hash).offset().top
-    }, 800, function(){
-
-    // Add hash (#) to URL when done scrolling (default click behavior)
-      window.location.hash = hash;
-    });
-
-  } // End if
-
-});
+ 
     
     //add more here
         
-});
+// });
 
 
  

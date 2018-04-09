@@ -117,6 +117,12 @@ li a:active .dot {
     height: auto;
 }
 
+#title-vid video {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
 
 .headline {
     position: absolute;
