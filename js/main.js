@@ -1,9 +1,24 @@
 $(function () { // wait for document ready
+    
+    
+    
+    
+    // build scene
+		var scene = new ScrollMagic.Scene({
+            triggerElement: "#trigger0",
+            triggerHook: 0,
+            duration: 1500
+        })
+				.setPin("#pin0")
+				.addIndicators({name: "1 (duration: 1500)"}) // add indicators (requires plugin)
+				.addTo(controller);
+    
+    
 		// build scene
 		var scene = new ScrollMagic.Scene({
             triggerElement: "#trigger1",
             triggerHook: 0,
-            duration: 2000
+            duration: 1500
         })
 				.setPin("#pin1")
 				.addIndicators({name: "1 (duration: 1500)"}) // add indicators (requires plugin)
@@ -13,7 +28,7 @@ $(function () { // wait for document ready
 		var scene = new ScrollMagic.Scene({
             triggerElement: "#trigger2",
             triggerHook: 0,
-            duration: 2000
+            duration: 1500
         })
 				.setPin("#pin2")
 				.addIndicators({name: "1 (duration: 1500)"}) // add indicators (requires plugin)
