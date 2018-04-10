@@ -20,7 +20,7 @@ body {
 
 
 /*start navigation*/
-#nav {
+#nav-init {
     position: fixed;
     height: 50%;
     top: 50%;
@@ -80,10 +80,11 @@ li a:hover .dot {
 
 }
 
-li a:active .dot {
+li a:active .dot, 
+.nav-link.active > .dot {
     height: 15px;
     width: 15px;
-    background-color: white;
+    background-color: #dcdcdc;
     border-radius: 50%;
     display: inline-block;
     z-index: 1000;
@@ -412,9 +413,9 @@ li a:active .dot {
 /*START CAROUSEL STYLE*/
 
 .carousel-indicators li {
-    border-radius: 12px;
-    width: 12px;
-    height: 12px;
+    border-radius: 15px;
+    width: 15px;
+    height: 15px;
     background-color: gray;
 }
 
@@ -424,6 +425,16 @@ li a:active .dot {
     
 }
 
+.carousel-control-next-icon {
+    height: 50px;
+    width: 50px;
+    
+}
+
+.carousel-control-prev-icon {
+    height: 50px;
+    width: 50px;
+}
 
 
 /*START CENTER QUOTE2 (FOR OVER IMAGES)*/
@@ -487,13 +498,31 @@ li a:active .dot {
 
 .ch2-top-img {
     width: 100%;
-    padding-top: 50px;
+    padding-top: 5%;
 }
 
 .ch2-top-img img {
     width: 100%;
 }
 
+.center-text-wrapper {
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.center-text-wrapper h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 2vw;
+}
+
+
+.center-text-wrapper p {
+    font-family: 'Crimson Text', serif;
+    font-weight: 400;
+    font-size: 1.5vw;
+}
 
 
 
@@ -504,8 +533,7 @@ li a:active .dot {
 
 
 
-
-
+/*Start Left Justified Audio Over Full-Screen Image*/
 
 
 
