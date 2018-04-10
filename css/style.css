@@ -30,21 +30,20 @@ body {
 }
 .navbar img{
     position: absolute;
-    top: 60%;
     
 }
 
 ul {
     position: absolute;
-    margin-top: 27px;
-    margin-left: 25px;
+    margin-top: -5px;
+    margin-left: -5px;
     list-style-type: none;
     z-index: 200;
 
 }
 
 li a {
-    margin-top: 20px;
+    margin-top: 10px;
     display: block;
 
 
@@ -84,7 +83,7 @@ li a:active .dot,
 .nav-link.active > .dot {
     height: 15px;
     width: 15px;
-    background-color: #dcdcdc;
+    background-color: white;
     border-radius: 50%;
     display: inline-block;
     z-index: 1000;
