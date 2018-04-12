@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
     <!-- CSS -->
+    <link rel="stylesheet" href="progres-bar.css">
+
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
     <!-- FONTS -->
@@ -107,7 +109,12 @@
                             <div class="ch-title-bg">
                                 <h3>CHAPTER ONE</h3>
                                 <h1>CALVIN'S JOURNEY</h1>
+                                <div class="title-audio-wrapper">
+                                <div class="mediPlayer">
+  <audio class="listen" preload="none" data-size="250" src="ch1/ch1_brought_down.mp4"></audio>
+</div>
                             </div>
+                        </div>
                         </div>
                     </div>
                 </div>
@@ -511,7 +518,7 @@
         <div class="container-fluid">
             <div class="row no-gutters">
                 <div class="col-12">
-                    <div class="full-screen-vid">
+                    <div id="title-vid">
                         <iframe src="https://player.vimeo.com/video/263935641?color=ffffff&title=0&byline=0&portrait=0" width="2400" height="1350" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                     </div>
                 </div>
@@ -700,7 +707,7 @@ more than anything is the community to back them - you know, to make them feel l
                                 <div class="carousel-item">
                                     <img class="d-block w-100" src="ch4/ch4_slideshow4.jpg" alt="Fourth slide">
                                     <div class="carousel-caption d-none d-md-block">
-                                        <p>Caption goes here. Caption goes here. Caption goes here.</p>
+                                        <p>Calvin looks at his wife, Angel, as she shaves his head and beard in their kitchen on April 2, 2018.</p>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
@@ -751,6 +758,13 @@ more than anything is the community to back them - you know, to make them feel l
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    
+    
+    <!--Start Audio Player-->
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+    <script src="player.js"></script>
+    <script>$('.mediPlayer').mediaPlayer();</script>
+    
 </body>
 
 </html>
