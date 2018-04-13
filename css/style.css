@@ -17,6 +17,19 @@ body {
     margin-left: 10px;
 }
 
+.title-audio .mediPlayer {
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 10px;
+}
+
+.mediPlayer {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
 
 
 /*start navigation*/
@@ -96,8 +109,15 @@ li a:active .dot,
 .blank-full { 
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 800px;
     overflow: hidden;
+}
+
+
+.blank-full2 { 
+    position: relative;
+    width: 100%;
+    height: 500px;
 }
 
 .center-quote {
@@ -115,6 +135,26 @@ li a:active .dot,
     text-align: center;
     color: black;
     top: 50%;   
+}
+
+
+
+.center-quote2 {
+    position: relative;
+    top: 40%;
+    
+}
+
+.center-quote2 h1 {
+    position: relative;
+    font-family: 'Crimson Text', serif;
+    font-weight: 400;
+    font-size: 20pt;
+    text-align: center;
+    color: black;
+    top: 20%;   
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 
@@ -281,12 +321,6 @@ li a:active .dot,
 
 .mediPlayer {
     z-index: 10000;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.audio-length p {
-    
 }
 
 
@@ -298,8 +332,8 @@ li a:active .dot,
 .center-text {
     padding-top: 50px;
     padding-bottom: 50px;
-    margin-right: 15%;
-    margin-left: 15%;
+    margin-right: 17%;
+    margin-left: 17%;
     
 }
 .center-text p {
@@ -388,7 +422,7 @@ li a:active .dot,
 
 .block-text-bg {
     background-color: rgba(99, 110, 114, 0.7);
-    width: 37%;
+    width: 40%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -396,6 +430,7 @@ li a:active .dot,
 .block-text #drop-cap {
     color: white;
     font-size: 8vw;
+    padding-left: 3%;
 }
 
 .block-text p {
@@ -403,6 +438,10 @@ li a:active .dot,
     font-weight: 400;
     font-size: 1.50vw;
     color: white;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 
@@ -426,6 +465,7 @@ li a:active .dot,
 .block-text2 #drop-cap {
     color: white;
     font-size: 9vw;
+    padding-left: 3%;
 }
 
 .block-text2 p {
@@ -433,6 +473,10 @@ li a:active .dot,
     font-weight: 400;
     font-size: 1.75vw;
     color: white;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 

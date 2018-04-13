@@ -1,0 +1,59 @@
+
+*,
+*:after,
+*:before {
+    box-sizing             : border-box;
+    -webkit-box-sizing     : border-box;
+    -moz-box-sizing        : border-box;
+    -webkit-font-smoothing : antialiased;
+    -moz-font-smoothing    : antialiased;
+    -o-font-smoothing      : antialiased;
+    font-smoothing         : antialiased;
+    text-rendering         : optimizeLegibility;
+
+}
+
+.mediPlayer2 .control {
+    opacity        : 0; /* transition: opacity .2s linear; */
+    pointer-events : none;
+    cursor         : pointer;
+}
+
+.mediPlayer2 .not-started .play, .mediPlayer2 .paused .play {
+    opacity : 1;
+
+}
+
+.mediPlayer2 .playing .pause {
+    opacity : 1;
+
+}
+
+.mediPlayer2 .playing .play {
+    opacity : 0;
+}
+
+.mediPlayer2 .ended .stop {
+    opacity        : 1;
+    pointer-events : none;
+}
+
+.mediPlayer2 .precache-bar .done {
+    opacity : 0;
+}
+
+.mediPlayer2 .not-started .progress-bar, .mediPlayer2 .ended .progress-bar {
+    display : none;
+}
+
+.mediPlayer2 .ended .progress-track {
+    stroke-opacity : 1;
+}
+
+.mediPlayer2 .progress-bar,
+.mediPlayer2 .precache-bar {
+    transition        : stroke-dashoffset 500ms;
+
+    stroke-dasharray  : 298.1371428256714;
+    stroke-dashoffset : 298.1371428256714;
+}
