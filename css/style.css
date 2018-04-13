@@ -31,6 +31,18 @@ body {
 }
 
 
+.full-img .audio-wrapper {
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    
+}
+
+.mediPlayer {
+cursor: pointer;
+}
+
+
 
 /*start navigation*/
 #nav-init {
@@ -231,7 +243,11 @@ li a:active .dot,
 .full-img {
     position: relative;
     width: 100%;
-    height: auto;
+}
+
+.full-img wrapper {
+
+
 }
 
 
