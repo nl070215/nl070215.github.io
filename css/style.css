@@ -343,7 +343,7 @@ li a:active .dot,
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    height: 25%;
+    height: 75px;
 }
 
 .audio-title-text p {
@@ -355,6 +355,10 @@ li a:active .dot,
     padding-top: 10px;
     padding-left: 30px;
 }
+
+
+
+
 
 
 
@@ -388,12 +392,25 @@ li a:active .dot,
     z-index: -1000;
 }
 
+
+.pull-quote h4 {
+    font-family: 'Crimson Text', serif;
+    font-weight: 600;
+    font-size: 1.8vw;
+    color: black;
+    z-index: -1000;
+}
+
 .pull-quote p {
     padding-top: 20px;
     font-family: 'Lato', sans-serif;
     font-weight: 600;
     font-size: 12pt;
     color: #b5b577;
+}
+
+.angel {
+    margin-top: 5%;
 }
 
 .mediPlayer {
@@ -753,6 +770,44 @@ iframe {
 
 
 
+footer {
+    position: relative;
+    border-top-color: black;
+    background-color: rgba(99, 110, 114);
+    height: 100px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+
+.center-footer p {
+    text-align: center;
+    font-family: 'Crimson Text', serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+    padding-top: 10px;
+    
+}
+
+.right-footer p {
+    text-align: right;
+    font-family: 'Crimson Text', serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+.left-footer img {
+    width: 125px;
+    padding-left: 10px;
+
+}
 
 
 
