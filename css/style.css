@@ -307,6 +307,14 @@ li a:active .dot,
     text-shadow: 0 2px 2px #000000;
 }
 
+.ch-title p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    color: white;
+    font-size: 12pt;
+    text-align: center;
+}
+
 .title-audio {
     padding-bottom: 10px;
 }
