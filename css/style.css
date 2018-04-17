@@ -773,8 +773,8 @@ iframe {
 footer {
     position: relative;
     border-top-color: black;
-    background-color: rgba(99, 110, 114);
-    height: 100px;
+    background-color: #2d3436;
+    height: 200px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -782,30 +782,52 @@ footer {
 }
 
 
-
-.center-footer p {
-    text-align: center;
-    font-family: 'Crimson Text', serif;
-    font-weight: 400;
-    font-size: 14px;
+.center-footer {
     color: white;
-    padding-top: 10px;
+    padding-top: 30px;
     
 }
 
+.name-line {
+
+
+
+}
+
+.center-footer h3 {
+    position: relative;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    padding-top: 2px;
+    color: white;
+    
+}
+
+.center-footer p {
+    position: relative;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    padding-left: 5px;
+    
+}
+
+
 .right-footer p {
     text-align: right;
-    font-family: 'Crimson Text', serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 400;
     font-size: 14px;
     color: white;
-    padding-top: 10px;
+    padding-top: 30px;
     padding-right: 20px;
 }
 
 .left-footer img {
-    width: 125px;
-    padding-left: 10px;
+    width: 200px;
+    padding-top: 30px;
+    padding-left: 20px;
 
 }
 
