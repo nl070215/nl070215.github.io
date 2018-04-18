@@ -341,11 +341,12 @@ li a:active .dot,
 
 
 .audio-title-bg {
-    background-color: rgba(99, 110, 114, 0.8);
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    height: 75px;
+   background-color: rgba(99, 110, 114, 0.8);
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   height: 60px;
+   padding-top: 10px;
 }
 
 .audio-title-text p {

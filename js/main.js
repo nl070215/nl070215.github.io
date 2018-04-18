@@ -10,7 +10,7 @@ $(function () { // wait for document ready
             duration: 900
         })
 				.setPin("#pin0")
-				.addIndicators({name: "1 (duration: 900)"}) // add indicators (requires plugin)
+				.addIndicators({name: "parallax0 (duration: 900)"}) // add indicators (requires plugin)
 				.addTo(controller);
     
     
@@ -21,7 +21,7 @@ $(function () { // wait for document ready
             duration: 900
         })
 				.setPin("#pin1")
-				.addIndicators({name: "1 (duration: 1200)"}) // add indicators (requires plugin)
+				.addIndicators({name: "parallax1 (duration: 900)"}) // add indicators (requires plugin)
 				.addTo(controller);
     
         // build scene
@@ -31,10 +31,27 @@ $(function () { // wait for document ready
             duration: 900
         })
 				.setPin("#pin2")
-				.addIndicators({name: "1 (duration: 1200)"}) // add indicators (requires plugin)
+				.addIndicators({name: "parallax2 (duration: 900)"}) // add indicators (requires plugin)
 				.addTo(controller);
     
-	});
+	
+
+    var scene = new ScrollMagic.Scene({
+                triggerElement: "#trigger4",
+                triggerHook: 0,
+                duration: 900
+                                      
+        })
+					// trigger a velocity opaticy animation
+					.setVelocity("#animate0", {opacity: 0}, {duration: 900})
+					.addIndicators({name: "velocity (duration: 900)"}) // add indicators (requires plugin)
+					.addTo(controller);
+
+
+
+
+
+});
                     
 
     
