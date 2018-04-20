@@ -6,7 +6,6 @@ body {
 
 
 
-
 .container-fluid {
     padding-right: 0; 
     padding-left: 0;
@@ -786,7 +785,7 @@ footer {
     position: relative;
     border-top-color: black;
     background-color: #2d3436;
-    height: 200px;
+    height: 250px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -872,6 +871,12 @@ figcaption {
 
 .cap-top figcaption { left: 0; top: -30%; }
 .cap-top:hover figcaption { top: 0; }
+
+.cap-bot figcaption { 
+    margin-left: auto;
+    margin-right: auto;
+    bottom: -30%;}
+.cap-bot:hover figcaption { bottom: 0; }
 
 figure:hover figcaption {
   opacity: 1;

@@ -48,9 +48,6 @@ $(function () { // wait for document ready
 					.addTo(controller);
 
 
-
-
-
 });
                     
 
