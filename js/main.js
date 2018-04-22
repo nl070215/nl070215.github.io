@@ -3,7 +3,7 @@ $(function () { // wait for document ready
     
     
     
-    // build scene
+    // build scene Chapter 1 Block Text
 		var scene = new ScrollMagic.Scene({
             triggerElement: "#trigger0",
             triggerHook: 0,
@@ -14,7 +14,8 @@ $(function () { // wait for document ready
 				.addTo(controller);
     
     
-		// build scene
+    
+		// build scene Chapter 2 Block Text
 		var scene = new ScrollMagic.Scene({
             triggerElement: "#trigger1",
             triggerHook: 0,
@@ -24,7 +25,9 @@ $(function () { // wait for document ready
 				.addIndicators({name: "parallax1 (duration: 900)"}) // add indicators (requires plugin)
 				.addTo(controller);
     
-        // build scene
+    
+    
+        // build scene Chapter 3 Block Text
 		var scene = new ScrollMagic.Scene({
             triggerElement: "#trigger2",
             triggerHook: 0,
@@ -34,19 +37,18 @@ $(function () { // wait for document ready
 				.addIndicators({name: "parallax2 (duration: 900)"}) // add indicators (requires plugin)
 				.addTo(controller);
     
-	
 
-    var scene = new ScrollMagic.Scene({
-                triggerElement: "#trigger4",
-                triggerHook: 0,
-                duration: 900
-                                      
+    
+    var scene = new ScrollMagic.Scene({triggerElement: "#uke", duration: 200})
+    
+    .on("enter", function () {
+          ukeVid.play();
         })
-					// trigger a velocity opaticy animation
-					.setVelocity("#animate0", {opacity: 0}, {duration: 900})
-					.addIndicators({name: "velocity (duration: 900)"}) // add indicators (requires plugin)
-					.addTo(controller);
-
+    
+    .on("leave", function () {
+          ukeVid.pause();
+        })
+  
 
 });
                     

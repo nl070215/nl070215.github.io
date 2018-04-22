@@ -785,7 +785,6 @@ footer {
     position: relative;
     border-top-color: black;
     background-color: #2d3436;
-    height: 250px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -890,5 +889,215 @@ figure:hover figcaption {
 }
 
 
+
+
+
+
+
+
+
+/*Mobile CSS*/
+
+@media only screen and (max-width: 600px) {
+    .headline {
+        top: 45%;
+    }
+    .headline h3 {
+        font-size: 10px;
+        letter-spacing: 2px;
+        text-indent: 0;
+        }
+    .headline h1{
+        font-size: 50px;
+        letter-spacing: 5px;
+        text-indent: .2px;
+    }
+    .headline h2{
+        font-size: 11.5px;
+    
+    }
+    
+    .center-quote {
+    top: 30%;
+}
+
+    .center-quote h1 {
+    font-size: 15pt;  
+}
+    
+    .blank-full {
+        height: 200px;
+    
+    }  
+    
+    .ch-title {
+        top: 50%;
+    }
+    
+    .ch-title h3 {
+        letter-spacing: 3px;
+        font-size: 10px;
+        padding-top: 5px;
+    }  
+    
+    .ch-title h1 {
+        font-size: 20px;
+        margin-top: -5px;
+    }
+    
+    .ch-title p {
+        font-size: 8px;
+        margin-top: -5px;
+    }
+    
+   .title-audio .mediPlayer {
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 5px;
+       margin-top: -5px;
+}
+
+.mediPlayer {
+    height: 40px;
+    width: 40px;
+    background-color: #b5b577;
+    border-radius: 50%;
+}
+    
+    .center-text {
+        margin-right: 12%;
+        margin-left: 12%;
+    
+    }
+    .center-text p {
+        font-size: 14px;
+    }
+    
+    #drop-cap {
+    }
+    
+    .pull-quote {
+        margin-top: 5%;
+    
+    }
+    
+    .pull-quote h3 {
+        font-size: 15px;
+        padding-top: 10px;
+    }
+    
+    .pull-quote h4 {
+        font-size: 15px;
+        margin-top: -10%;
+    }
+    
+    .pull-quote p {
+        font-size: 12px;
+        margin-top: -10px;
+    }
+    
+    .audio-length {
+        padding-bottom: 20px;
+    }
+    
+    .vert-img-cap img {
+        padding-top: 30px;
+    }
+    
+     .vert-img-cap p {
+        font-size: 12px;
+    }
+    
+    .vert-img-text {
+        margin-left: 12%;
+    
+    }
+    .vert-img-text p {
+        font-size: 14px;
+    }
+    
+    .block-text p {
+        font-size: 14px;
+    }
+    
+    .block-text-bg {
+        width: 70%
+    }
+    
+     .second {
+         top: 20%;
+    }
+    
+    .three-sixty iframe {
+        height: 200px;
+        
+    }
+    
+    .center-text-wrapper h1 {
+        font-size: 14px;
+    }
+    
+    .center-text-wrapper p {
+        font-size: 10px;
+    }
+    
+    figcaption {
+        font-size: 10px;
+    }
+    
+    .audio-title-text p {
+        font-size: 10px;
+    }
+    
+    
+     .center-quote2 {
+    top: 25%;
+}
+
+    .center-quote2 h1 {
+    font-size: 15pt;  
+}
+    .block-text2 p {
+        font-size: 14px;
+    }
+    
+    .block-text-bg2 {
+        width: 70%
+    }
+    
+    .carousel-indicators {
+        display: none;
+    }
+    
+    
+      .center-quote3 {
+        top: 15%;
+        width: 70%;
+}
+
+    .center-quote3 h1 {
+    font-size: 15pt;  
+}
+    
+    .center-footer {
+        margin-left: 15%;
+    }
+    
+    .left-footer {
+        margin-left: 5%;
+    }
+    
+    .right-footer p {
+        text-align: center;
+    }
+    
+    .third {
+        margin-top: 10%;
+    }
+    
+    .fourth {
+        margin-top: 10%;
+    }
+}
 
 
