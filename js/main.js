@@ -39,15 +39,6 @@ $(function () { // wait for document ready
     
 
     
-    var scene = new ScrollMagic.Scene({triggerElement: "#uke", duration: 200})
-    
-    .on("enter", function () {
-          ukeVid.play();
-        })
-    
-    .on("leave", function () {
-          ukeVid.pause();
-        })
   
 
 });
