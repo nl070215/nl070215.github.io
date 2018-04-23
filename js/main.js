@@ -10,7 +10,7 @@ $(function () { // wait for document ready
             duration: 900
         })
 				.setPin("#pin0")
-				.addIndicators({name: "parallax0 (duration: 900)"}) // add indicators (requires plugin)
+				//.addIndicators({name: "parallax0 (duration: 900)"}) // add indicators (requires plugin)
 				.addTo(controller);
     
     
@@ -22,7 +22,7 @@ $(function () { // wait for document ready
             duration: 900
         })
 				.setPin("#pin1")
-				.addIndicators({name: "parallax1 (duration: 900)"}) // add indicators (requires plugin)
+				//.addIndicators({name: "parallax1 (duration: 900)"}) // add indicators (requires plugin)
 				.addTo(controller);
     
     
@@ -34,7 +34,7 @@ $(function () { // wait for document ready
             duration: 900
         })
 				.setPin("#pin2")
-				.addIndicators({name: "parallax2 (duration: 900)"}) // add indicators (requires plugin)
+				//.addIndicators({name: "parallax2 (duration: 900)"}) // add indicators (requires plugin)
 				.addTo(controller);
     
 

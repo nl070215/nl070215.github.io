@@ -166,6 +166,12 @@ li a:active .dot,
     
 }
 
+.center-quote3 {
+    position: relative;
+    top: 40%;
+    
+}
+
 .center-quote2 h1 {
     position: relative;
     font-family: 'Crimson Text', serif;
