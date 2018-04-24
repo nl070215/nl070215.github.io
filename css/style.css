@@ -18,7 +18,7 @@ body {
     font-weight: 600;
     font-size: 18pt;
     color: #b5b577;
-    margin-left: 10px;
+    margin-left: 25px;
 }
 
 .title-audio .mediPlayer {
@@ -424,7 +424,6 @@ li a:active .dot,
 
 
 .pull-quote img {
-    z-index: -1000;
 }
 
 .pull-quote h3 {
@@ -528,11 +527,11 @@ li a:active .dot,
 }
 
 .img-fluid2 {
-    padding-left: 60px;
+    padding-left: 50px;
     height: 100vh;
 }
 .img-fluid3 {
-    padding-left: 120px;
+    padding-left: 50px;
     height: 100vh;
 }
 
@@ -691,6 +690,10 @@ li a:active .dot,
 .three-sixty iframe {
     height: 500px;
     
+}
+
+.infographic {
+    padding-top: 30px;
 }
 
 .ch2-top-img {
