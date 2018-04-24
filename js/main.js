@@ -38,7 +38,30 @@ $(function () { // wait for document ready
 				.addTo(controller);
     
 
+     // build scene
+        var scene = new ScrollMagic.Scene({
+           triggerElement: "#fade-mark1",
+           triggerHook: 0,
+           duration: 1000, //or whatever setting you want
+           offset: -100 //or whatever setting you want
+       })
+
+.setClassToggle("#scroll-container1", "fade-in")
+                .addTo(controller);
     
+    
+    
+    
+    // build scene
+        var scene = new ScrollMagic.Scene({
+           triggerElement: "#fade-mark2",
+           triggerHook: 0,
+           duration: 1000, //or whatever setting you want
+           offset: 1000 //or whatever setting you want
+       })
+
+.setClassToggle("#scroll-container2", "fade-in")
+                .addTo(controller);
   
 
 });
