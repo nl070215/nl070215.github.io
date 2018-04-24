@@ -383,17 +383,17 @@ li a:active .dot,
    width: 100%;
    margin-left: auto;
    margin-right: auto;
-   height: 60px;
    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .audio-title-text p {
     font-family: 'Lato', sans-serif;
     font-weight: 600;
-    font-size: 14pt;
-    margin-left: 10px;
+    font-size: 12pt;
+    margin-left: 5px;
     color: white;
-    padding-top: 10px;
+    padding-top: 5px;
     padding-left: 30px;
 }
 
@@ -416,10 +416,12 @@ li a:active .dot,
 .pull-quote {
     padding-right: 10%;
     padding-left: 20%;
-    margin-top: 45%;
+    margin-top: 30%;
     
     
 }
+
+
 
 .pull-quote img {
     z-index: -1000;
@@ -523,6 +525,15 @@ li a:active .dot,
     line-height: 80%;
     
     
+}
+
+.img-fluid2 {
+    padding-left: 60px;
+    height: 100vh;
+}
+.img-fluid3 {
+    padding-left: 120px;
+    height: 100vh;
 }
 
 
@@ -655,7 +666,8 @@ li a:active .dot,
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
+    width: 60%;
+    top: 30%;
 }
 
 .center-quote3 h1 {
@@ -1023,7 +1035,7 @@ figure:hover figcaption {
     
     .pull-quote h4 {
         font-size: 15px;
-        margin-top: -10%;
+        margin-top: -5%;
     }
     
     .pull-quote p {
@@ -1113,6 +1125,9 @@ figure:hover figcaption {
     .center-quote3 h1 {
     font-size: 15pt;  
 }
+    footer {
+        height: 100%;
+    }
     
     .center-footer {
         margin-left: 15%;
@@ -1133,6 +1148,15 @@ figure:hover figcaption {
     .fourth {
         margin-top: 10%;
     }
+    
+    .img-fluid2 {
+        padding-left: 0;
+        height: 600px;
+}
+.img-fluid3 {
+    padding-left: 0;
+        height: 600px;
+}
 }
 
 
